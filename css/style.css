@@ -10,6 +10,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+
+  background: linear-gradient(-60deg, #f9fafb, #d2d6db)
 }
 
 * {
@@ -28,4 +30,48 @@ body {
 .credits a {
   color: #000;
   font-weight: bold;
+}
+
+.profile-card-container {
+  width: 340px;
+  margin-top: 200px;
+}
+
+.profile-card-container button:hover {
+  background-color: #3730a3;
+}
+
+.profile-card-container button:focus {
+  background-color: #3730a3;
+}
+.profile-card-container button:disabled {
+  background-color: #f5f5f5;
+  color: #a3a3a3;
+}
+
+.scoial-btn {
+  border-radius: 4px;
+  outline: none;
+}
+
+.scoial-btn:hover {
+  background-color: #fafafa;
+}
+
+.scoial-btn:focus {
+  background-color: #fafafa;
+  box-shadow: 0px 0px 0pxx 4px rgba(68, 76, 231, 0.12);
+}
+
+.scoial-btn:disabled {
+  pointer-events: none;
+}
+
+.social-media-container img {
+  width: 20px;
+}
+
+
+.profile-card-container button {
+  border-radius: 0.25rem;
 }
